@@ -1,5 +1,8 @@
 # 1%: Summarize Istanbul Coverage
 
+[![1% on NPM](https://img.shields.io/npm/v/@codelenny/1pct.svg)](npm.im/@codelenny/1pct)
+[![Build Status](https://travis-ci.org/CodeLenny/1pct.svg?branch=master)](https://travis-ci.org/CodeLenny/1pct)
+
 Running tests through Istanbul produces separate percentages for statements, branches, functions, and lines:
 
 ```sh
