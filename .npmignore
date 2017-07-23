@@ -1,0 +1,5 @@
+.nyc_output/
+coverage/
+support/
+test/
+.travis.yml

@@ -1,0 +1,34 @@
+{
+  "name": "@codelenny/1pct",
+  "version": "0.0.0",
+  "description": "Summarize Istanbul Coverage",
+  "main": "1pct.js",
+  "bin": {
+    "1%": "1pct.js",
+    "1pct": "1pct.js"
+  },
+  "scripts": {
+    "test": "NODE_PATH=. ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CodeLenny/1pct.git"
+  },
+  "author": "Ryan Leonard (http://ryanleonard.us)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeLenny/1pct/issues"
+  },
+  "homepage": "https://github.com/CodeLenny/1pct#readme",
+  "dependencies": {
+    "numeral": "^2.0.6"
+  },
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "child-process-promise": "^2.2.1",
+    "ethr": "0.0.1",
+    "fs-extra": "^4.0.0",
+    "lodash.reduce": "^4.6.0",
+    "nyc": "^11.1.0"
+  }
+}
