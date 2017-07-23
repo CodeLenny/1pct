@@ -29,14 +29,6 @@ npm install --save-dev @codelenny/1pct
 Run your tests normally:
 
 ```sh
-# Generate JSON summary of coverage
-$(npm bin)/nyc report --reporter=json-summary
-# Run 1% to calculate total percentage
-$(npm bin)/1%
-# => Total Coverage 79%
-```
-
-```sh
 $(npm bin)/nyc (ava|mocha|...)
 # ----------------------------|----------|----------|----------|----------|----------------|
 # File                        |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
