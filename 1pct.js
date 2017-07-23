@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 const path = require("path");
 const numeral = require("numeral");
-console.log(path.join(process.cwd(), "./coverage/coverage-summary.json"));
 const { total } = require(path.join(process.cwd(), "./coverage/coverage-summary.json"));
 
 let count = 0;
